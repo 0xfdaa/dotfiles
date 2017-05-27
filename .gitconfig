@@ -10,3 +10,5 @@
 	cm = commit -m 
 	difl = diff HEAD^
 	ad = add .
+	pom = push origin master
+	
