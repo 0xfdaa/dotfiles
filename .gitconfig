@@ -9,4 +9,4 @@
 	lgl = log --oneline --decorate --graph --stat
 	cm = commit -m 
 	difl = diff HEAD^
-	
+	ad = add .
