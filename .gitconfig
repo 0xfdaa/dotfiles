@@ -6,4 +6,4 @@
 [alias]
 	st = status 
 	lg = log --oneline --decorate --graph
-
+	cm = commit -m 
