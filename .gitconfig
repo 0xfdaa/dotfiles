@@ -8,3 +8,5 @@
 	lg = log --oneline --decorate --graph
 	lgl = log --oneline --decorate --graph --stat
 	cm = commit -m 
+	difl = diff HEAD^
+	
