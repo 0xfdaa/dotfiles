@@ -1,1 +1,0 @@
-xcopy C:\Users\k\.gitconfig .
