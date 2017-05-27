@@ -2,8 +2,8 @@
 	name = k
 	email = wer@w.pl
 [color]
-	ui = auto
+	ui = true
 [alias]
-	st = status 
+	st = status --short
 	lg = log --oneline --decorate --graph
 	cm = commit -m 
