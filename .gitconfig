@@ -1,0 +1,9 @@
+[user]
+	name = k
+	email = wer@w.pl
+[color]
+	ui = auto
+[alias]
+	st = status 
+	lg = log --oneline --decorate --graph
+
