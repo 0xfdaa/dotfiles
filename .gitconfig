@@ -9,6 +9,12 @@
 	lgl = log --oneline --decorate --graph --stat
 	cm = commit -m 
 	difl = diff HEAD^
+	d = diff
 	ad = add .
 	pom = push origin master
 	
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
