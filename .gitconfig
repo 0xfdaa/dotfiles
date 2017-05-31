@@ -4,6 +4,7 @@
 [color]
 	ui = true
 [alias]
+	# STATUS AND LOG
 	st = status --short
 	lg = log --oneline --decorate --graph
 	lgl = log --oneline --decorate --graph --stat
@@ -12,9 +13,8 @@
 	d = diff
 	ad = add .
 	pom = push origin master
-	
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+	# BRANCH
+	br = branch
+	brd = branch -D 
+	# CHECKOUT 
+	ch = checkout
