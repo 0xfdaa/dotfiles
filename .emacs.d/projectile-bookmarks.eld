@@ -1,0 +1,1 @@
+("~/PycharmProjects/tdd_book/" "~/.emacs.d/")
