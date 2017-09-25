@@ -1,0 +1,1 @@
+/home/kamil/.emacs.d
